@@ -22,10 +22,10 @@ public interface PartenaireRepository extends JpaRepository<Partenaire, Long> {
 
     /**
      * Recherche tous les partenaires par catégorie
-     * @param catégorie la catégorie du partenaire
+     * @param categorie la catégorie du partenaire
      * @return une liste de partenaires
      */
-    List<Partenaire> findByCategorie(String catégorie);
+    List<Partenaire> findByCategorie(String categorie);
 
     /**
      * Recherche tous les partenaires par statut
